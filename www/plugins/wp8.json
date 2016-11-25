@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "{bd647550-aff3-11e6-9d4f-19eacf2cee1c}"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "{bd647550-aff3-11e6-9d4f-19eacf2cee1c}"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "{bd647550-aff3-11e6-9d4f-19eacf2cee1c}"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "{bd647550-aff3-11e6-9d4f-19eacf2cee1c}"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "{bd647550-aff3-11e6-9d4f-19eacf2cee1c}"
+        }
+    },
+    "dependent_plugins": {}
+}
