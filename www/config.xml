@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="no.visma.patentstyret" version="1.0.5.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" android-versionCode="20" android-versionName="1.0.5.1" windows-packageVersion="1.0.5.1">
+  <name>Navnesjekk, de viktige valgene</name>
+  <description>Varemerkesøk for patentstyret.</description>
+  <author href="http://www.patentstyret.no" email="post@patentstyret.no">Patentstyret</author>
+  <content src="index.html" />
+  <access origin="*" />
+  <access origin="http://127.0.0.1*" />
+  <preference name="SplashScreen" value="images" />
+  <preference name="windows-target-version" value="10.0" />
+  <preference name="permissions" value="none" />
+  <preference name="phonegap-version" value="cli-6.3.0" />
+  <preference name="orientation" value="portrait" />
+  <preference name="target-device" value="universal" />
+  <preference name="fullscreen" value="false" />
+  <preference name="webviewbounce" value="false" />
+  <preference name="prerendered-icon" value="false" />
+  <preference name="stay-in-webview" value="false" />
+  <preference name="ios-statusbarstyle" value="black-opaque" />
+  <preference name="detect-data-types" value="true" />
+  <preference name="exit-on-suspend" value="false" />
+  <preference name="show-splash-screen-spinner" value="false" />
+  <preference name="auto-hide-splash-screen" value="true" />
+  <preference name="disable-cursor" value="false" />
+  <preference name="android-installLocation" value="auto" />
+  <!--<icon src="www/icon.png" />-->
+  <icon src="www/res/icons/ios/icon.png"               gap:platform="ios"        width="57" height="57" />
+  <icon src="www/res/icons/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
+  <icon src="www/res/icons/ios/icon@2x.png"            gap:platform="ios"        width="114" height="114" />
+  <icon src="www/res/icons/ios/icon-72@2x.png"         gap:platform="ios"        width="144" height="144" />
+  <gap:splash src="www/res/screen/ios/screen-iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
+  <gap:splash src="www/res/screen/ios/screen-iphone5-portrait.png"    gap:platform="ios"     width="640" height="1136" />
+  <gap:splash src="www/res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
+  <gap:splash src="www/res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
+  <gap:splash src="www/res/screen/ios/screen-ipad-portrait-2x.png"      gap:platform="ios"     width="768" height="1024" />
+  <platform name="android">
+    <icon src="www/icons/android/icon-36-ldpi.png" density="ldpi" />
+    <icon src="www/icons/android/icon-48-mdpi.png" density="mdpi" />
+    <icon src="www/icons/android/icon-72-hdpi.png" density="hdpi" />
+    <icon src="www/icons/android/icon-96-xhdpi.png" density="xhdpi" />
+  </platform>
+  <vs:platformSpecificValues>
+    <vs:platformSpecificWidget platformName="windows" id="com.patentstyret.Navnesjekk" version="1.0.5.1">
+      <vs:name>Navnesjekk, de viktige valgene</vs:name>
+    </vs:platformSpecificWidget>
+  </vs:platformSpecificValues>
+  <preference name="Fullscreen" value="False" />
+  <preference name="KeepRunning" value="True" />
+  <preference name="ShowTitle" value="False" />
+  <preference name="InAppBrowserStorageEnabled" value="True" />
+  <preference name="SuppressesIncrementalRendering" value="False" />
+  <preference name="AndroidLaunchMode" value="standard" />
+  <preference name="android-minSdkVersion" value="19" />
+  <preference name="android-maxSdkVersion" value="25" />
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
+  <allow-intent href="https://www.patentstyret.no/rss-nyheter/*" />
+  <allow-navigation href="http://*/*" />
+  <allow-navigation href="https://*/*" />
+  <allow-navigation href="Data*" />
+  <allow-navigation href="https://www.patentstyret.no/rss-nyheter/" />
+  <access origin="https://www.patentstyret.no/*" />
+  <access origin="http://localhost:4400/*" />
+  <plugin name="cordova-plugin-device" version="1.1.3" />
+  <plugin name="cordova-plugin-inappbrowser" version="1.5.0" />
+  <plugin name="cordova-plugin-network-information" version="1.3.0" />
+  <plugin name="cordova-plugin-splashscreen" version="4.0.0" />
+  <plugin name="cordova-plugin-whitelist" version="1.3.0" />
+  <preference name="android-targetSdkVersion" value="19" />
+  <preference name="WindowsStoreDisplayName" value="Navnesjekk, de viktige valgene" />
+</widget>
