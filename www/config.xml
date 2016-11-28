@@ -10,7 +10,10 @@
   <preference name="windows-target-version" value="10.0" />
   <preference name="permissions" value="none" />
   <preference name="phonegap-version" value="cli-6.3.0" />
-  <preference name="orientation" value="portrait" />
+  <platform name="ios">
+    <preference name="phonegap-version" value="3.9.1" />
+    <preference name="orientation" value="portrait" />
+  </platform>
   <preference name="target-device" value="universal" />
   <preference name="fullscreen" value="false" />
   <preference name="webviewbounce" value="false" />
