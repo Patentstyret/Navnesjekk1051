@@ -24,10 +24,10 @@
   <preference name="disable-cursor" value="false" />
   <preference name="android-installLocation" value="auto" />
   <!--<icon src="www/icon.png" />-->
-  <icon src="www/res/icon/ios/icon.png"               gap:platform="ios"        width="57" height="57" />
-  <icon src="www/res/icon/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
-  <icon src="www/res/icon/ios/icon@2x.png"            gap:platform="ios"        width="114" height="114" />
-  <icon src="www/res/icon/ios/icon-72@2x.png"         gap:platform="ios"        width="144" height="144" />
+  <icon src="www/res/icons/ios/icon.png"               gap:platform="ios"        width="57" height="57" />
+  <icon src="www/res/icons/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
+  <icon src="www/res/icons/ios/icon@2x.png"            gap:platform="ios"        width="114" height="114" />
+  <icon src="www/res/icons/ios/icon-72@2x.png"         gap:platform="ios"        width="144" height="144" />
   <gap:splash src="www/res/screen/ios/screen-iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
   <gap:splash src="www/res/screen/ios/screen-iphone5-portrait.png"    gap:platform="ios"     width="640" height="1136" />
   <gap:splash src="www/res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
